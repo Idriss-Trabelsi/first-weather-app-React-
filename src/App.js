@@ -7,6 +7,7 @@ import { BrowserRouter as Router,Route,Routes } from "react-router-dom";
 import Home from "./pages/Home"
 import Weather from "./pages/Weather"
 import About from "./pages/About"
+import Login from "./pages/Login"
 
 function App(){
   return(
@@ -19,6 +20,7 @@ function App(){
           <Route path="/" element = {<Home />}/>
           <Route path="/Weather" element = {<Weather />}/>
           <Route path="/About" element = {<About />}/>
+          <Route path="/Login" element = {<Login />}/>
 
         </Routes>
       </main>

@@ -10,4 +10,14 @@
     justify-content: center;
     min-height: 80vh; /* pour centrer verticalement */
   }
-  
+  /* Ajouter à Weather.css */
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  width: 100%;
+}

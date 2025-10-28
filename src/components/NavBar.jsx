@@ -15,6 +15,9 @@ export default function NavBar()  {
                 <li>
                     <Link to="/About"> A propos </Link>
                 </li>
+                <li>
+                    <Link to="/Login">  Authentification </Link>
+                </li>
             </ul>
         </nav>
     );
